@@ -1,0 +1,354 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+.container-nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list .nav-item {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 10px 25px;
+	user-select: none;
+}
+.nav-list .nav-item .icon {
+	font-size: 25px;
+}
+.nav-list .nav-item .text {
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.card5 a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+.a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+.conatiner-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96rem;
+    margin-top: 3rem
+}
+.item1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 12rem;
+    width: 27rem;
+
+}
+.container-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96rem;
+    margin-top: 8rem;
+}
+
+.home-image{
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    width: 100%;
+    height: 990px;
+}
+
+.card-group{
+    position: absolute;
+     
+}
+.image-font {
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    top: 8rem;
+    left: 6rem;
+    text-transform: uppercase;
+}
+  .home-font{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 7rem;
+    left: 6rem;
+    line-height: 27px;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+  }  
+
+.font-home3{
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    top: 14rem;
+    left: 6.3rem;
+    line-height: 27px;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+}
+.number{
+    position: absolute;
+    left: 85rem;
+    color: white;
+    font-size: 20px;
+}
+.phone-icon{
+    position: absolute;
+    left: 83rem;
+    width: 24px;
+    color: #8A3CC3 ;
+}
+.item1 {
+    background-color: cadetblue;
+    color: white;
+    width: 14rem;
+    height: 10rem;
+    font-size: 22px;
+}
+.item7{
+    grid-area: footer;
+}
+.font-item{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.item-title{
+  margin-left: 4rem;
+    margin-top: 1rem;
+}
+.electric-fav{
+    position: absolute;
+    width: 39px;
+}
+.cards {
+    position: absolute;
+    top: 32rem;
+    left: 26rem;
+    max-width: 1200px;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+/* Screen larger than 600px? 2 column */
+ @media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+ @media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+} 
+
+.sidebar-control{
+    position: absolute;
+    top: 26rem;
+    width: 11rem;
+    left: 35rem; 
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.sidebar1-control{
+    position: absolute;
+    left: 35rem;
+    top: 22rem;
+    width: 11rem;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.select-area{
+    position: absolute;
+    color: white;
+    left: 27rem;
+    top: 420px;
+    line-height: 27px;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+}
+.select-city{
+    position: absolute;
+    color: white;
+    left: 27rem;
+    top: 356px;
+    line-height: 27px;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+}
+.select-call{
+    position: absolute;
+    color: white;
+    left: 28rem;
+    top: 899px;
+    left: 26rem;
+     line-height: 27px;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+}
+.home-conatainer .pass{
+    position: absolute;
+    left: 540px;
+    width: 12rem;
+    top: 56rem;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.home-conatainer .error-msg{
+    color: white;
+    position: absolute;
+    font-size: 0.9rem;
+    margin-top: 55rem;
+    left: 37rem;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    position: absolute;
+    top: 893px;
+    left: 786px;
+}
+.card-home{
+    position: absolute;
+    left: 0rem;
+    width: 100%;
+    height: 50%;
+}
+.card-title1{
+    position: absolute;
+    border-bottom: 3px solid #ee5;
+    text-align: center;
+    left: 40rem;
+}
+.card-text1{
+    position: absolute;
+    margin: 12rem;
+    left: 4rem;
+    top: -8rem;
+    text-align: center;
+}
+.card5{
+   top: 106rem;
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.service1{
+    background-color: dodgerblue;
+    color: white;
+    width: 20rem;
+    margin-top: 5rem;
+    height: 18rem;
+}
+.home-serivice-title{
+    position: absolute;
+    left: 41rem;
+    border-bottom: 3px solid #ee5;
+    text-align: center;
+}
+.image-service{
+    position: absolute;
+    left: 0rem;
+    width: 20rem;
+    height: 18rem;
+}
+.image-paint{
+    position: absolute;
+    left: 400px;
+    width: 20rem;
+    height: 18rem;
+}
+.image-plumb{
+    position: absolute;
+    left: 799px;
+    width: 20rem;
+    height: 18rem;
+}
+.image-parlor{
+    position: absolute;
+    left: 1199px;
+    width: 20rem;
+    height: 18rem;
+}
+.title-electric{
+    position: absolute;
+    top: 23rem;
+    color: black;
+    left: 6rem;
+}
+.title-paint{
+    position: absolute;
+    top: 23rem;
+    color: black;
+    left: 34rem;
+}
+.title-plumber{
+    position: absolute;
+    top: 23rem;
+    color: black;
+    left: 59rem;
+}
+.title-parlor{
+    position: absolute;
+    top: 23rem;
+    color: black;
+    left: 84rem;
+}
+
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+
+[type=radio]:checked + img {
+  outline: 2px solid #f00;
+}

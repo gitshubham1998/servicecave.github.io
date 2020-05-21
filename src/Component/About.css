@@ -1,0 +1,252 @@
+.image1{
+    vertical-align: middle;
+    border-style: none;
+    height: 14rem;
+    
+}
+
+.card-about {
+    position: absolute;
+    width: 100%;
+    top: 30rem;
+    left: 20rem;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    width: 49rem;
+}
+
+.card-title-about{
+    text-align: center;
+    color: #2c3e50;
+    font-family: "LatoWebBlack","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 38px;
+    padding: 0 0 25px 0;
+    margin: 0;
+    text-align: left;
+    border-bottom: 3px solid #ee5;
+    margin: 0 0 20px 0;
+    
+}
+.image-about{
+    vertical-align: middle;
+    border-style: none;
+    height: 25rem;
+    margin-left: 0rem;
+    width: 100%;
+}
+
+.card-us .card{
+    position: absolute;
+    margin-top: 57em;
+    width: 100%;
+    background: #062331;
+    height: 20rem;
+    border-bottom: 3px solid #ee5;
+}
+.card-us{
+  margin-top: 155px;
+  width: 81rem;
+}
+
+.font-About{
+    color: #cccccc;
+    margin-left: 6rem;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: normal;
+}
+.font-services{
+    position: absolute;
+    color: #cccccc;
+    font-size: 15px;
+    font-weight: normal;
+    top: 159px;
+    left: 23rem;
+}
+.font-Info{
+    font-size: 16px;
+    color: rgba(255,255,255,.40);
+    padding: 15px 0 16px 40px;
+    margin-top: 5rem;
+    margin-left: 3.70rem;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'LatoWebHeavy';
+}
+.service-title{
+    position: absolute;
+    top: 98px;
+    padding: 15px 0 16px 40px;
+    left: 22rem;
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'LatoWebHeavy';
+    color: rgba(255,255,255,.40);
+}
+.city-title{
+    position: absolute;
+    top: 98px;
+    left: 37rem;
+    padding: 15px 0 16px 40px;
+    font-size: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'LatoWebHeavy';
+    color: rgba(255,255,255,.40);
+}
+.font-city{
+    position: absolute;
+    top: 138px;
+    left: 37rem;
+    color: rgba(255,255,255,.40);
+    padding: 15px 0 16px 40px;
+    font-family: 'LatoWebHeavy';
+}
+
+.about-why{
+    text-align: center;
+    margin-top: 1rem;
+    color: #2c3e50;
+    font-size: 42px;
+    font-family: 'LatoWebBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0 0 50px 0;
+    margin: 0;
+    text-align: center;
+}
+.font-Deliver{
+    position: absolute;
+    font-family: 'LatoWebBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    right: 80rem;
+    top: 7.20rem;
+}
+.font-Deliver1{
+    position: absolute;
+    font-family: 'LatoWebBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    right: 77rem;
+    top: 8.20rem;
+}
+.font-home{
+    font-size: 18px;
+    position: absolute;
+    color: #282828;
+    font-family: 'LatoWebBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 22px;
+    margin-left: 44rem;
+    padding: 8px 0 5px 0;
+    margin-top: -1.10rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.font-satisfied{
+    font-size: 18px;
+    color: #282828;
+    font-family: 'LatoWebBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 22px;
+    padding: 8px 0 5px 0;
+    margin-top: 0rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.prov-item-in{
+    position: absolute;
+    font-family: 'LatoWebBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    right: 8rem;
+    top: 7.20rem;
+}
+.prov-item-house{
+    position: absolute;
+    font-family: 'LatoWebBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    right: 4rem;
+    top: 8.20rem;
+}
+.fav-home{
+   position: absolute;
+   right: 53rem;
+   top: 6.30rem
+}
+.fav-home1{
+   position: absolute;
+   right: 16rem;
+   top: 6.30rem
+}
+.fav-Del{
+    position: absolute;
+    left: 4.20rem;
+    top: 6.20rem;
+}
+
+.card-team{  
+    height: 37rem;
+    position: absolute;
+    display: flex;
+    top: 50rem;
+    width: 100%;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-choose{
+    position: absolute;
+    display: flex;
+    top: 86rem;
+    height:20rem;
+    width: 100%;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.image-my{
+    position: absolute;
+    width: 16rem;
+    height: 19rem;
+    margin-left: 38rem;
+    margin-top: 7rem;
+}
+.map-img{
+    position: absolute;
+    width: 37rem;
+    height: 315px;
+    left: 925px;
+    top: 0px;
+}
+.title-team{
+    position: absolute;
+    left: 40rem;
+    top: 2rem;
+}
+.my-team-name{
+    position: absolute;
+    top: 26rem;
+    left: 39.30rem;
+}
+.web-dev{
+    position: absolute;
+    top: 28rem;
+    left: 42.20rem;
+}
+.ui-ux{
+    position: absolute;
+    top: 29.20rem;
+    left: 41.60rem;
+}
+.linkdln{
+    position: absolute;
+    top: 31rem;
+    width: 2rem;
+    left: 45rem;
+}
